@@ -1,0 +1,427 @@
+// Colors
+//
+// Grayscale and brand colors for use across Bootstrap.
+
+// Start with assigning color names to specific hex values.
+//
+// Color system
+//
+
+@import "./fonts/fontawesome/scss/solid.scss";
+@import "./fonts/fontawesome/scss/brands.scss";
+@import "./fonts/fontawesome/scss/fontawesome.scss";
+@import 'colors';
+@import 'variables';
+
+
+.slick-prev:before, .slick-next:before {
+	font-family: 'slick';
+	font-size: 20px;
+	line-height: 1;
+	opacity: .75;
+	color: black !important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+// Reassign color vars to semantic color scheme
+$theme-colors: (
+		primary: $color-primary-4,
+		secondary: $color-secondary-1-3,
+		tertiary: $color-secondary-2-3,
+		success: $green,
+		info: $cyan,
+		warning: $yellow,
+		danger: $red,
+		light: $gray-100,
+		dark: $gray-800,
+    neutralLighterAlt: $neutralLighterAlt,
+    neutralLighter: $neutralLighter,
+    neutralLight: $neutralLight,
+    neutralQuaternaryAlt: $neutralQuaternaryAlt,
+    neutralQuaternary:$neutralQuaternary,
+    neutralTertiaryAlt: $neutralTertiaryAlt,
+    neutralTertiary: $neutralTertiary,
+    neutralSecondary: $neutralSecondary,
+    neutralPrimaryAlt: $neutralPrimaryAlt,
+    neutralPrimary: $neutralPrimary,
+    neutralDark: $neutralDark,
+    black: $black,
+	)
+	!default;
+
+$light-gray: $neutralDark;
+//$main-font-color: $neutralPrimary;
+//$secondary-font-color: rgba(0, 0, 0, .60);
+$main-font-weight: 300;
+$black-color: rgba(0, 0, 0, .87);
+$blue-color: #6dabe4;
+$grey-light: $neutralLight;
+//$body-color: $neutralPrimary;
+
+// nav
+.logo{
+	max-width: 152px;
+}
+
+textarea.form-control {
+	height: auto;
+	border: transparent;
+	border-radius: 70px;
+	box-shadow: none;
+}
+
+.card-img-overlay-fliped {
+	background: linear-gradient(#faf9f8, rgba(255, 255, 255, 0)) !important;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1.25rem;
+}
+
+li.list-group-item {
+	background: transparent;
+
+
+
+}
+
+.body-intro {
+	font-size: 2rem;
+}
+
+.card-img-overlay-fliped-fliped {
+	background: linear-gradient(rgba(255, 255, 255, 0), #faf9f8) !important;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1.25rem;
+}
+
+.nav-bg{
+		position: absolute !important;
+		z-index: 2 !important;
+}
+
+
+.min-vh-60{
+  min-height: 60vh;
+}
+
+.intro-body p {
+	line-height: 1.7rem;
+	letter-spacing: .1rem;
+}
+
+.values {
+	font-size: 1.4rem;
+	line-height: 2.5rem !important;
+	letter-spacing: .1rem;
+}
+
+.button-main{
+	border-radius: 3rem !important;
+}
+
+.values_1{
+	color:$neutralTertiary;
+}
+
+.values_2{
+	color:$neutralPrimary;
+
+}
+
+.icon-img{
+	width: 92px;
+}
+
+.values_3{
+	color:$neutralTertiary;
+
+}
+
+.values_4{
+color: $neutralPrimaryAlt
+}
+
+.ofset-form{
+	margin-top: -20%;
+}
+.max-vh-80{
+  max-height: 80vh;
+}
+.min-vh-80{
+  min-height: 70vh;
+}
+
+
+@media only screen and (max-width: 991px){
+	.display-4{
+		font-size: 2.3rem !important;
+	}
+	.navbar-nav {
+		background: $white;
+	}
+
+}
+@media only screen and (max-width: 767px)
+{
+	.display-4{
+		font-size: 2.8rem !important;
+	}
+	.navbar-nav {
+		background: $white;
+	}
+
+
+}
+@media only screen and (max-width: 640px)
+{
+	.display-4{
+		font-size: 2.5rem !important;
+	}
+	.navbar-nav {
+		background: $white;
+	}
+
+
+}
+@media only screen and (max-width: 640px)
+{
+	.display-4{
+		font-size: 2rem !important;
+	}
+	.navbar-nav {
+		background: $white;
+	}
+
+
+}
+
+
+.ofset-form input {
+	border-radius: 0px !important;
+	min-height: 3rem !important;
+	margin-top: 1rem;
+	box-shadow: none;
+	border-bottom: 2px solid;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	width: 100%;
+}
+
+.ofset-form-2 input, textarea {
+	border-radius: 0px !important;
+	min-height: 3rem !important;
+	margin-top: 1rem;
+	box-shadow: none;
+	border-bottom: 2px solid;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	width: 100%;
+}
+
+img.logo {
+	min-width: 102px;
+}
+.footer-form .btn {
+	border-radius: 90px !important;
+}
+
+.footer-form input {
+	border-radius: 2.3rem !important;
+	min-height: 3rem !important;
+	margin-top: 1rem;
+	border: transparent;
+	box-shadow: none;
+
+}
+
+.ofset-form button{
+	border-radius: 2rem !important;
+}
+
+
+.bg-transparent{
+  background-color: transparent;
+}
+
+.display-4 {
+  //line-height: 1.2 !important;
+}
+
+.brand {
+  max-width: 2rem;
+  min-width: 2rem;
+}
+.card-img-overlay {
+
+  background: linear-gradient(rgba(11, 11, 11, 0.0), rgba(11, 11, 11, .6)) !important;
+
+}
+.card-img-overlay-0 {
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+
+}
+
+.active {
+  border: solid grey;
+}
+
+
+//.bg-cover {
+//	background: url("/img/wave-bg.svg");
+//	width: auto;
+//  width: auto;
+//  background-size: cover;
+//  /* background-size: contain; */
+//  background-repeat: no-repeat;
+//  background-position: bottom;
+//}
+
+
+.padding-top-section{
+  padding-top: 7rem;
+}
+
+
+li.slide.selected {
+  height: fit-content;
+  background: white;
+    .text{
+      color: $neutralDark !important;
+    }
+  .text-50{
+    color: $neutralSecondary !important;
+  }
+
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border: 0
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  text-shadow: none;
+  background-image: none;
+}
+
+
+
+
+.minimal-primary-bg {
+	background: $minimal-primary;
+}
+
+//backgrounds
+.bg-neutralLighterAlt {
+	background-color: $neutralLighterAlt !important;
+}
+.bg-neutralLighter {
+	background-color: $neutralLighter !important;
+}
+.bg-neutralLight {
+	background-color: $neutralLight !important;
+}
+.bg-neutralLighterAlt {
+	background-color: $neutralLighterAlt !important;
+}
+.bg-neutralLighter {
+	background-color: $neutralLighter !important;
+}
+.bg-neutralLight {
+	background-color: $neutralLight !important;
+}
+.bg-neutralQuaternaryAlt {
+	background-color: $neutralQuaternaryAlt !important;
+}
+.bg-neutralQuaternary {
+	background-color: $neutralQuaternary !important;
+}
+.bg-neutralTertiaryAlt {
+	background-color: $neutralTertiaryAlt !important;
+}
+.bg-neutralTertiary {
+	background-color: $neutralTertiary !important;
+}
+.bg-neutralSecondary {
+	background-color: $neutralSecondary !important;
+}
+.bg-neutralPrimaryAlt {
+	background-color: $neutralPrimaryAlt !important;
+}
+.bg-neutralPrimary {
+	background-color: $neutralPrimary !important;
+}
+.bg-neutralDark {
+	background-color: $neutralDark !important;
+}
+
+.size-3 img{
+  width: 3rem;
+  height: 3rem;
+}
+
+
+//fonts
+//
+//$font-family-sans-serif: 'Work Sans', sans-serif;
+//$font-family-serif: 'Open Sans', sans-serif;
+
+//shadows
+//
+
+$shadow-less: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+
+.hover-shadow {
+	&:hover {
+		box-shadow: $shadow-less;
+	}
+}
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+$enable-rounded: true !default;
+$enable-shadows: true !default;
+$enable-gradients: false !default;
+$enable-transitions: false !default;
+$enable-hover-media-query: false !default;
+$enable-grid-classes: true !default;
+$enable-print-styles: true !default;
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (sm: 540px, md: 640px, lg: 710px, xl: 780px) !default;
+
+// Body
+//
+// Settings for the `<body>` element.
+
+// Links
+//
+// Style anchor elements.
+$link-decoration: none !default;
+$link-hover-decoration: none !default;
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
