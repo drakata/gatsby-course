@@ -14,16 +14,6 @@
 @import 'variables';
 
 
-.slick-prev:before, .slick-next:before {
-	font-family: 'slick';
-	font-size: 20px;
-	line-height: 1;
-	opacity: .75;
-	color: black !important;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
 
 // Reassign color vars to semantic color scheme
 $theme-colors: (
@@ -51,122 +41,9 @@ $theme-colors: (
 	)
 	!default;
 
-$light-gray: $neutralDark;
-//$main-font-color: $neutralPrimary;
-//$secondary-font-color: rgba(0, 0, 0, .60);
-$main-font-weight: 300;
-$black-color: rgba(0, 0, 0, .87);
-$blue-color: #6dabe4;
-$grey-light: $neutralLight;
-//$body-color: $neutralPrimary;
-
-// nav
-.logo{
-	max-width: 152px;
-}
-
-textarea.form-control {
-	height: auto;
-	border: transparent;
-	border-radius: 70px;
-	box-shadow: none;
-}
-
-.card-img-overlay-fliped {
-	background: linear-gradient(#faf9f8, rgba(255, 255, 255, 0)) !important;
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	padding: 1.25rem;
-}
-
-li.list-group-item {
-	background: transparent;
-
-
-
-}
-
-.body-intro {
-	font-size: 2rem;
-}
-
-.card-img-overlay-fliped-fliped {
-	background: linear-gradient(rgba(255, 255, 255, 0), #faf9f8) !important;
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	padding: 1.25rem;
-}
-
-.nav-bg{
-		position: absolute !important;
-		z-index: 2 !important;
-}
-
-
-.min-vh-60{
-  min-height: 60vh;
-}
-
-.intro-body p {
-	line-height: 1.7rem;
-	letter-spacing: .1rem;
-}
-
-.values {
-	font-size: 1.4rem;
-	line-height: 2.5rem !important;
-	letter-spacing: .1rem;
-}
-
-.button-main{
-	border-radius: 3rem !important;
-}
-
-.values_1{
-	color:$neutralTertiary;
-}
-
-.values_2{
-	color:$neutralPrimary;
-
-}
-
-.icon-img{
-	width: 92px;
-}
-
-.values_3{
-	color:$neutralTertiary;
-
-}
-
-.values_4{
-color: $neutralPrimaryAlt
-}
-
-.ofset-form{
-	margin-top: -20%;
-}
-.max-vh-80{
-  max-height: 80vh;
-}
-.min-vh-80{
-  min-height: 70vh;
-}
-
-
 @media only screen and (max-width: 991px){
 	.display-4{
 		font-size: 2.3rem !important;
-	}
-	.navbar-nav {
-		background: $white;
 	}
 
 }
@@ -174,9 +51,6 @@ color: $neutralPrimaryAlt
 {
 	.display-4{
 		font-size: 2.8rem !important;
-	}
-	.navbar-nav {
-		background: $white;
 	}
 
 
@@ -205,59 +79,6 @@ color: $neutralPrimaryAlt
 }
 
 
-.ofset-form input {
-	border-radius: 0px !important;
-	min-height: 3rem !important;
-	margin-top: 1rem;
-	box-shadow: none;
-	border-bottom: 2px solid;
-	border-top: 0;
-	border-left: 0;
-	border-right: 0;
-	width: 100%;
-}
-
-.ofset-form-2 input, textarea {
-	border-radius: 0px !important;
-	min-height: 3rem !important;
-	margin-top: 1rem;
-	box-shadow: none;
-	border-bottom: 2px solid;
-	border-top: 0;
-	border-left: 0;
-	border-right: 0;
-	width: 100%;
-}
-
-img.logo {
-	min-width: 102px;
-}
-.footer-form .btn {
-	border-radius: 90px !important;
-}
-
-.footer-form input {
-	border-radius: 2.3rem !important;
-	min-height: 3rem !important;
-	margin-top: 1rem;
-	border: transparent;
-	box-shadow: none;
-
-}
-
-.ofset-form button{
-	border-radius: 2rem !important;
-}
-
-
-.bg-transparent{
-  background-color: transparent;
-}
-
-.display-4 {
-  //line-height: 1.2 !important;
-}
-
 .brand {
   max-width: 2rem;
   min-width: 2rem;
@@ -267,22 +88,6 @@ img.logo {
   background: linear-gradient(rgba(11, 11, 11, 0.0), rgba(11, 11, 11, .6)) !important;
 
 }
-.card-img-overlay-0 {
-
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-
-
-}
-
-.active {
-  border: solid grey;
-}
-
-
 //.bg-cover {
 //	background: url("/img/wave-bg.svg");
 //	width: auto;
@@ -299,36 +104,6 @@ img.logo {
 }
 
 
-li.slide.selected {
-  height: fit-content;
-  background: white;
-    .text{
-      color: $neutralDark !important;
-    }
-  .text-50{
-    color: $neutralSecondary !important;
-  }
-
-}
-
-.navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.5);
-  border: 0
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-  text-shadow: none;
-  background-image: none;
-}
-
-
-
-
-.minimal-primary-bg {
-	background: $minimal-primary;
-}
 
 //backgrounds
 .bg-neutralLighterAlt {
